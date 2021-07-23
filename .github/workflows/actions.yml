@@ -1,0 +1,9 @@
+name: demo
+on: push
+jobs:
+  shell_script:
+    name: run os
+    runs-on: ubuntu-latest
+    steps:
+      - name: print the name
+        run: echo "Hello Tayyab"
